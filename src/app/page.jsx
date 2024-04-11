@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main >
       <h1>dsds</h1>
-      <link rel="stylesheet" href="" prefetch="false"/>
+      <Link rel="stylesheet" href="/henry" prefetch={false}/>
     </main>
   );
 }
