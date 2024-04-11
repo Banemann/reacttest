@@ -2,7 +2,7 @@ import link from "next/link";
 
 export default function Footer() {
 
-return (
+
     <main>
       <nav className="bg-black text-white p-2">
         <ul className="flex gap-2">
@@ -15,4 +15,4 @@ return (
         </ul>
       </nav>
     </main>
-  ); }
+   }
