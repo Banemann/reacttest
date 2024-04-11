@@ -21,6 +21,16 @@ async function getHenry() {
     return (
       <main>
         <h1>{name}</h1>
+
+    <Image
+      src="https://images.unsplash.com/photo-1517849845537-4d257902454a"
+      alt="A cute dog"
+      width={3024}
+      height={4032}
+      priority={true} // disables lazy load
+    />
+  
+
       </main>
     );
   }
