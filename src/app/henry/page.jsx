@@ -19,20 +19,26 @@ async function getHenry() {
 
   
     return (
-      <main>
-        <h1>{name}</h1>
+      <main className="md:flex max-w-7xl mx-auto">
+        
 
     <Image
       src="https://images.unsplash.com/photo-1517849845537-4d257902454a"
       alt="A cute dog"
       width={3024}
       height={4032}
+      className="w-full md:w-1/2 xl:w-[600px]"
       priority={true} // disables lazy load
       sizes="(max-width: 768px) 100vw,
          (max-width: 1200px) 50vw,
-         400px"
+         600px"
     />
   
+  <div>
+    <h1>{name}</h1>
+  </div>
+
+
 
       </main>
     );
