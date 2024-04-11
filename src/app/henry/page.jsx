@@ -28,6 +28,9 @@ async function getHenry() {
       width={3024}
       height={4032}
       priority={true} // disables lazy load
+      sizes="(max-width: 768px) 100vw,
+         (max-width: 1200px) 50vw,
+         400px"
     />
   
 
